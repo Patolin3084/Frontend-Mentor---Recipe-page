@@ -1,0 +1,126 @@
+    @font-face {
+      font-family: Outfit;
+      src: url(assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+    }
+    @font-face {
+      font-family: YoungSerif;
+      src: url(assets/fonts/young-serif/YoungSerif-Regular.ttf);
+    }
+    *{
+      margin: 0;
+      padding: 0;
+    }
+    body{
+      background-color: hsl(330, 100%, 98%);
+      font-family: Outfit, YoungSerif;
+    }
+    .container{
+      max-width: 400px;
+      margin: auto;
+      background-color: hsl(0, 0%, 100%)
+      ;
+    }
+    img{
+      width: 100%;
+
+    }
+    main{
+      padding: 31px;
+    }
+    section{
+      margin-top: 5px;
+      border-bottom: solid 2px hsl(30, 54%, 90%);
+      margin-bottom: 36px;
+    }
+    section:first-child, :last-child{
+      border-bottom: none;
+    }
+    section#prep{
+      border-bottom: none;
+    }
+
+    h1{
+      font-family: YoungSerif;
+      font-size: 2.3em;
+      font-weight: 400;
+    }
+    h2{
+      font-family: YoungSerif;
+      color: hsl(14, 45%, 36%);
+      font-size: 1.7em;
+      font-weight: 400;
+      margin-bottom: 15px;
+    }
+    #p1{
+      line-height: 1.6;
+      font-size: 15px;
+      letter-spacing: 0.03em;
+      margin-top: 15px;
+      color: hsl(30, 10%, 34%);
+    }
+    p{
+      line-height: 1.8;
+      font-size: 16px;
+      letter-spacing: 0.04em;
+      color:  hsl(30, 10%, 34%);
+    }
+    table{
+      border-collapse: collapse;
+    }
+    tr{
+      border-bottom: solid 2px hsl(30, 54%, 90%);
+    }
+    tr:last-child{
+      border-bottom: none;
+    }
+    li{
+      margin-left: 25px;
+      line-height: 1.8;
+      font-size: 16px;
+      letter-spacing: 0.03em;
+      color:  hsl(30, 10%, 34%);
+      padding-left: 20px;
+      margin-bottom: 11px;
+    }
+    #prep li::marker{
+      color: hsl(332, 51%, 32%);
+    }
+    #prep{
+      background-color: hsl(330, 100%, 98%);
+    }
+    .preparation{
+      color: hsl(332, 51%, 32%);
+      margin-bottom: 7px;
+      margin-left: 14px;
+    }
+    ol li::marker{
+      color: hsl(14, 45%, 36%);
+      font-weight: 700;
+    }
+    #ingr li::marker{
+      color: hsl(14, 45%, 36%);
+      font-weight: 600;
+    }
+    #nutri p{
+      margin-bottom: 15px;
+    }
+    
+    footer{
+      padding-top: 50px;
+      background-color: hsl(330, 100%, 98%);
+    }
+    td{
+      padding: 8px 53px 16px 38px;
+    }
+    #txt{
+      color: hsl(30, 10%, 34%);
+    }
+    #num{
+      color: hsl(14, 45%, 36%);
+      font-weight: 600;
+      text-align: left;
+      padding-right: 100px;
+    }
+
+    .attribution { font-size: 11px; text-align: center; background-color: hsl(330, 100%, 98%); }
+    .attribution a { color: hsl(228, 45%, 44%); }
