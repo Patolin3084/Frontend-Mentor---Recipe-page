@@ -1,4 +1,4 @@
-@font-face {
+    @font-face {
       font-family: Outfit;
       src: url(assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
     }
@@ -14,11 +14,11 @@
       background-color: hsl(330, 100%, 98%);
       font-family: Outfit, YoungSerif;
     }
+    
     .container{
-      max-width: 400px;
+      max-width: 500px;
       margin: auto;
-      background-color: hsl(0, 0%, 100%)
-      ;
+      background-color: hsl(0, 0%, 100%);
     }
     img{
       width: 100%;
@@ -124,3 +124,13 @@
 
     .attribution { font-size: 11px; text-align: center; background-color: hsl(330, 100%, 98%); }
     .attribution a { color: hsl(228, 45%, 44%); }
+
+    @media screen and (min-width:376px){
+      img{
+        width: 100%;       
+        border-radius: 26px;
+      }
+      header{
+        padding: 20px 31px 0 31px;
+      }
+    }
